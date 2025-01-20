@@ -33,7 +33,7 @@ const Login = class Login {
 
   getByLoginPassword () {
     this.app.get('/login/', (req, res) => {
-      try {
+      try {       
         this.UserModel.findOne({'$and': [{ login: req.query.login, password: req.query.password}]}).then((login) => {
           if (Object.keys(login).length) {
             const body = { id: login.id, email: login.email };
