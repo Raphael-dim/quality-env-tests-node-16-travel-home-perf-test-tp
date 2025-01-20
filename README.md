@@ -10,7 +10,7 @@
 Tests réalisés :
 - Soumissions de feedback simultanées (1000 utilisateurs)
 - Connexions successives et simultanées
-- Charge prolongée pendant 5 minutes
+- Charge prolongée pendant 10 minutes
 - Tests de gestion des erreurs (identifiants et jetons invalides)
 - Surveillance des ressources système
 
